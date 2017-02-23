@@ -1,0 +1,21 @@
+
+<table>
+	<tr>
+		<% @columns.times do %>
+		<th>
+			<%= image_tag "/assets/flecha.jpg"%>
+		</th>
+		<% end %>
+	</tr>
+	
+	<% @rows.times do %>
+	<tr>
+		<% @columns.times do %>
+		<th>
+			<img alt="Icon" src="/assets/cuadro.png"  height="80px" width="80px" />
+		</th>
+		<% end %>
+	</tr>
+	<% end %>
+</table>
+
